@@ -11,7 +11,6 @@ Install
 2. create an access token on evernote (if you don't have one yet)
 3. add access token on settings.py
 
-
     cd ~/Library/Application\ Support/Sublime\ Text 2/Packages
     git clone https://github.com/sergioska/EvernoteSyntaxHighlight.git
 
