@@ -8,7 +8,9 @@ Install
 ========
 
 1. clone git repository
+
     cd ~/Library/Application\ Support/Sublime\ Text 2/Packages
+    
     git clone https://github.com/sergioska/EvernoteSyntaxHighlight.git
 
 2. create an access token on evernote (if you don't have one yet)
