@@ -8,7 +8,6 @@ Install
 ========
 
 1. clone git repository
-
     cd ~/Library/Application\ Support/Sublime\ Text 2/Packages
     git clone https://github.com/sergioska/EvernoteSyntaxHighlight.git
 
