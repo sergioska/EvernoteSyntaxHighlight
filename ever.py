@@ -48,6 +48,7 @@ class EvernoteCommand(sublime_plugin.TextCommand):
 
 		''' set title '''
 		title = "test-da-sublime"
+		sublime.Window.showInputPanel('add a title to this snippet', '', None, None, None)
 
 		''' connect to evercode account '''
 		evercode.setClient();

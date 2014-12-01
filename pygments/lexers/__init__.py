@@ -19,6 +19,7 @@ from pygments.plugin import find_plugin_lexers
 from pygments.util import ClassNotFound, bytes
 from pygments.lexers import agile
 from pygments.lexers import web
+from pygments.lexers import _phpbuiltins
 
 
 __all__ = ['get_lexer_by_name', 'get_lexer_for_filename', 'find_lexer_class',
