@@ -49,16 +49,24 @@ class EvernoteCommand(sublime_plugin.TextCommand):
 		setting = Local();
 		setting.developer_token = token
 
-		self.evercode = EverCode(setting)
+		try:
+			self.evercode = EverCode(setting)
+		except:
+			sublime.status_message("There is a problem on set evercode client")
+			return False
 
-		code = PygCode()
-		''' set language '''
-		code.setLexer(language)
+		try:
+			code = PygCode()
+			''' set language '''
+			code.setLexer(language)
 
-		''' set content '''
-		# set content from selection
-		source = ''.join(selected_rows)
-		self.body = code.getHighLightCode(source)
+			''' set content '''
+			# set content from selection
+			source = ''.join(selected_rows)
+			self.body = code.getHighLightCode(source)
+		except:
+			sublime.status_message("There is a problem with pygments system")
+			return False
 
 		''' set title '''
 		self.title = "snippet from sublime"
