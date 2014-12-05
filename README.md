@@ -12,10 +12,10 @@ Install
 2. create a developer token on evernote (see below)
 
 3. create a file named "token" and paste on it your evernote developer token
-
-     cd ~/Library/Application Support/Sublime Text 2/Packages
-     git clone https://github.com/sergioska/EvernoteSyntaxHighlight.git
-     
+    
+    cd ~/Library/Application Support/Sublime Text 2/Packages
+    git clone https://github.com/sergioska/EvernoteSyntaxHighlight.git
+    
 
 # Evernote Developer Token
 
