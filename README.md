@@ -7,11 +7,13 @@ To install this plugin, you can clone git repository on Sublime package director
 Install
 ========
 
-1. clone git repository
-2. create a developer token on evernote (if you don't have one yet)
+1. clone this git repository
+
+2. create a developer token on evernote (see below)
+
 3. create a file named "token" and paste on it your evernote developer token
 
-    cd ~/Library/Application\ Support/Sublime\ Text 2/Packages
+    cd ~/Library/Application Support/Sublime Text 2/Packages
     git clone https://github.com/sergioska/EvernoteSyntaxHighlight.git
      
 
