@@ -19,7 +19,7 @@ To install this plugin, you can clone git repository on Sublime package director
 
 First go to: 
 
-`https://www.evernote.com/Login.action?targetUrl=%2Fapi%2FDeveloperToken.action`
+[https://www.evernote.com/Login.action?targetUrl=%2Fapi%2FDeveloperToken.action](https://www.evernote.com/Login.action?targetUrl=%2Fapi%2FDeveloperToken.action)
 
 and generate your developer token, and copy it on clipboard.
 Then go to Evernote Syntax Highlight directory plugin:
