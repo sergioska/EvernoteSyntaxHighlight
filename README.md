@@ -24,7 +24,7 @@ First go to:
 and generate your developer token, and copy it on clipboard.
 Then go to Evernote Syntax Highlight directory plugin:
 
-`cd ~/Library/Application Support/Sublime Text 2/Packages/EvernoteSyntaxHighlight
+`cd ~/Library/Application Support/Sublime Text 2/Packages/EvernoteSyntaxHighlight`
 
 create a file on root directory of plugin (path above) edit it and paste your developer token on it.
 
