@@ -9,22 +9,27 @@ Install
 
 1. clone this git repository
 
+    git clone https://github.com/sergioska/EvernoteSyntaxHighlight.git
+
 2. create a developer token on evernote (see below)
 
 3. create a file named "token" and paste on it your evernote developer token
     
-    cd ~/Library/Application Support/Sublime Text 2/Packages
-    git clone https://github.com/sergioska/EvernoteSyntaxHighlight.git
-    
 
 # Evernote Developer Token
 
-go to https://www.evernote.com/Login.action?targetUrl=%2Fapi%2FDeveloperToken.action
+First go to: 
+
+    https://www.evernote.com/Login.action?targetUrl=%2Fapi%2FDeveloperToken.action
+
+and generate your developer token, and copy it on clipboard.
+Then go to Evernote Syntax Highlight directory plugin:
 
     cd ~/Library/Application Support/Sublime Text 2/Packages/EvernoteSyntaxHighlight
 
-generate your developer token, and copy it on clipboard.
-So create a file on root directory of plugin (path above) and paste on it.
+create a file on root directory of plugin (path above) edit it and paste your developer token on it.
+
+
 
     
 
