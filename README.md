@@ -32,6 +32,8 @@ create a file on root directory of plugin (path above) edit it and paste your de
 
 When you need to save a snippet of code and send it as a note to your evernote account, select the part of code that you want save, do right click on selected area and you choose Evernote item on context menù. Now insert a title for this snippet on text field and press enter. 
 
+> N.B.: this version works only with Sublime Text 2 and it's test only on Mac OS X.
+
 
 
     

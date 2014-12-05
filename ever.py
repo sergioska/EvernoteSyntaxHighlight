@@ -25,22 +25,23 @@ class EvernoteCommand(sublime_plugin.TextCommand):
 		language = fileExtension.replace(".","")
 		if fileExtension in extFixer:
 			language = extFixer[fileExtension]
-		print(language)
+		# print(language)
 		sels = self.view.sel()
 		selected_rows = []
 		for sel in sels:
 			selected_rows.append(self.view.substr(sel))
 
 		try:
-			with open("token") as file:
-				token_string = file.read()
-				file.close();
+			with open(basepath + "/token") as token_file:
+				token_string = token_file.read()
+				token_file.close();
 				if (token_string is None) or (token_string is ''):
 					sublime.error_message("Your token string is Empty! Set it on token file in root directory plugin.");
 					return False;
 		except IOError as e:
 			sublime.error_message("Your token file dosn't not exist! You need a token file on root directory plugin.");
 			print "Unable to open file. Does not exist or no read permissions"
+			print e
 			return False
 
 		token = token_string.strip()
